@@ -7,13 +7,12 @@ def factorize(number):
 
     if number < 2:
         return
-    print()
-    print(number, "<- number-before")
-    while number % a:
-        a += 1
-    print("{:.0f}={:.0f}*{:.0f}".format(number, number / i, i))
-    print(number, "<- number-after")
-    print()
+
+while number > 1:
+if number % a == 0:
+    print("{:.0f}={:.0f}*{:.0f}".format(number, number / a, a))
+    break:
+a += 1
 
 if len(argv) != 2:
     exit()
